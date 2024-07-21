@@ -1,39 +1,44 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+1.
+Stable coin	USDC :
+- stable coin , có giá trị tương đương 1 USD
+- giá trị ổn định nên dùng làm tài sản an toàn khi giao dịch. Cũng là mặt hại khi không có khả năng tăng giá
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+Service	Celer: nền tảng cung cấp giải pháp mở rộng L2  bằng sử dụng offchain
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+Dev tool:	Nền tảng cung cấp các API để sử dụng trên blockchain ( RPC protocols) 
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Asset management:	Trust wallet: ví quản lí token, sử dụng nhiều chain, swap, send, stacking 
 
-## Features
+Exchange: Uniswap là sàn giao dịch phi tập trung (DEX).
+- swap các cặp erc20 với một khoảng phí. Sau đó dùng Flashswap cho phép sưap miễn phí
+	
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
+2.  
+Metis	Platform build L2 Ethereum,  mục tiêu sử lí lượng lớn tin,  cải thiện. Performance và. Usability
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Celer Network is a protocol that acts as a bridge between Ethereum and Polkadot. Celer Network’s goal: efficiency and scalability , making it more accessible and user-friendly for everyone.
 
-## Usage
+Arbitrum: create secure Ethereum Dapps . offers an affordable solution  of the high gas fees issues on the Ethereum network. your transactions will be not only cost-effective but also secure. This technology opens up exciting possibilities for developers and users alike, making Ethereum Dapps more accessible and user-friendly
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Optimism: offering a speedy and cost-effective solution for Ethereum transactions.  providing users with a smoother and more affordable experience.
 
-```dart
-const like = 'sample';
-```
+Polygon: scaling solution that aims to provide multiple tools to improve the speed and reduce the cost and complexities of transactions on blockchain networks.
 
-## Additional information
+3.
+Stable coin:	USDC 
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Service:	Metissafe
+
+Dev tool:	Metis Sepolia Testnet explorer
+
+	•	REST API
+	•	GraphQL
+	•	RPC API
+	•	Verify contract
+
+
+Asset:	metamask
+
+Exchange:	Metis bridge ( token and NFT),  Rinkeby <-> Goerli - ETH is needed to bridge METIS from Ethereum L1 to Andromeda L2. Once Metis is on L2, transactions will be paid for in METIS.
+
