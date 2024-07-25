@@ -14,4 +14,5 @@
 - Validate
 - Click Request Funds to receive Metis
 
-3.
+3. Deploy SMC to Metis Testnet
+Transaction history: https://sepolia-explorer.metisdevops.link/address/0x78B3907faE1405537F7faF1B6c0A0692771418F2?tab=contract
