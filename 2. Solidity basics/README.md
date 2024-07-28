@@ -16,4 +16,4 @@
 
 3. Deploy SMC to Metis Testnet
 
-- Transaction history: https://sepolia-explorer.metisdevops.link/address/0x78B3907faE1405537F7faF1B6c0A0692771418F2?tab=contract
+- Transaction history: https://sepolia-explorer.metisdevops.link/tx/0x42926d52eac5ce1901e4a8551e725e9c4d08fc2c3e399657a8d980312a240fd9
