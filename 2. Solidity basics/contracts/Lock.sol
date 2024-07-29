@@ -29,11 +29,11 @@ contract Lock {
 
         if (block.timestamp <= unlockTime)
             revert InvalidUnlockTime(unlockTime, block.timestamp);
-
-        // require(msg.sender == owner, "You aren't the owner");
+      
+        require(address(this).balance >= 0.1 ether, "Your balance must greater or atleast equal 0.1 ETH");
 
         emit Withdrawal(address(this).balance, block.timestamp);
 
-        owner.transfer(address(this).balance);
+        // owner.transfer(address(this).balance);
     }
 }

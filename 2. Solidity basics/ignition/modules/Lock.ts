@@ -1,6 +1,6 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-const JAN_1ST_2030 = 1722167985;
+const JAN_1ST_2030 = 1722268510;
 const ONE_GWEI: bigint = 300_000_000_000n;
 
 const LockModule = buildModule("LockModule", (m) => {
