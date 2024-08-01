@@ -5,7 +5,7 @@ pragma solidity ^0.8.24;
 // import "hardhat/console.sol";
 
 contract Calculator {
-    uint public result;
+    uint private result;
     // address payable public owner;
 
     // event AddNumber(uint first, uint second);
@@ -13,7 +13,7 @@ contract Calculator {
     // event MultiplyNumber(uint first, uint second);
     constructor() {}
 
-    function addNumber(uint first, uint second) public {
+    function addNumber(uint first, uint second) private {
         result = first + second;
     }
     function subtractNumber(uint first, uint second) public {
@@ -25,5 +25,21 @@ contract Calculator {
     }
     function multiplyNumber(uint first, uint second) public {
         result = first * second;
+    }
+    function countDown() public pure returns (uint) {
+        uint i = 5;
+        uint sum = 0;
+        while (i > 0) {
+            sum += i;
+            i--;
+        }
+        return sum;
+    }
+    function countUp() public pure returns (uint) {
+        uint sum = 0;
+        for (uint index = 0; index <= 5; index++) {
+            sum += index;
+        }
+        return sum;
     }
 }

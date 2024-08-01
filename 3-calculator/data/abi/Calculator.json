@@ -5,21 +5,29 @@
         "type": "constructor"
     },
     {
-        "inputs": [
+        "inputs": [],
+        "name": "countDown",
+        "outputs": [
             {
                 "internalType": "uint256",
-                "name": "first",
-                "type": "uint256"
-            },
-            {
-                "internalType": "uint256",
-                "name": "second",
+                "name": "",
                 "type": "uint256"
             }
         ],
-        "name": "addNumber",
-        "outputs": [],
-        "stateMutability": "nonpayable",
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "countUp",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "pure",
         "type": "function"
     },
     {
@@ -38,19 +46,6 @@
         "name": "multiplyNumber",
         "outputs": [],
         "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "result",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
         "type": "function"
     },
     {
