@@ -30,9 +30,11 @@ contract AdvancedCalculator is BasicCalculator {
             multiply(a, b);
         } else if (operation == 4) {
             divide(a, b);
+        } else {
+            revert("unkown");
         }
     }
-    function getResult() public view returns (uint256) {
+    function getResult() external view returns (uint256) {
         return result;
     }
 }
