@@ -1,4 +1,5 @@
 {
   "SimpleStorageModule#SimpleStorage": "0x4c9C559ba1964bf68dA9Ba309bbb7AC8A11e09b7",
-  "PolymorphismCatModule#PolymorphismCat": "0xdb91531DcfBC8343546602FB2E67748cAE77fac0"
+  "PolymorphismCatModule#PolymorphismCat": "0xdb91531DcfBC8343546602FB2E67748cAE77fac0",
+  "MathExampleModule#MathExample": "0x0f3ABf65095568027fd4c4454A45d63c43b3e621"
 }

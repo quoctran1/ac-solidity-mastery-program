@@ -23,3 +23,8 @@ contract PolymorphismCat is PolymorphismAnimal {
         return "Moewing";
     }
 }
+contract PolymorphismBird is PolymorphismAnimal {
+    function sound() public pure override returns (string memory) {
+        return "Chipping";
+    }
+}
