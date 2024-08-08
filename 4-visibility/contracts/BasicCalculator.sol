@@ -10,15 +10,18 @@ contract BasicCalculator {
         result = a + b;
     }
     function substract(uint256 a, uint256 b) internal {
+        assert(a>=b);
         result = a - b;
     }
 }
 
 contract AdvancedCalculator is BasicCalculator {
     function multiply(uint256 a, uint256 b) private {
+        assert(a!=0&&b!=0);
         result = a * b;
     }
     function divide(uint256 a, uint256 b) private {
+        assert(a!=0&&b!=0);
         result = a / b;
     }
     function performOperation(uint256 a, uint256 b, uint8 operation) public {
