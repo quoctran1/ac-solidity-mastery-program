@@ -1,6 +1,3 @@
 {
-  "SimpleStorageModule#SimpleStorage": "0x4c9C559ba1964bf68dA9Ba309bbb7AC8A11e09b7",
-  "PolymorphismCatModule#PolymorphismCat": "0xdb91531DcfBC8343546602FB2E67748cAE77fac0",
-  "MathExampleModule#MathExample": "0x0f3ABf65095568027fd4c4454A45d63c43b3e621",
-  "StringOperatorModule#StringOperator": "0xa88c01c559827F997B006415cae31E2b131C72Eb"
+  "InterfaceCalculatorModule#InterfaceCalculator": "0x316b71E518C6d2C8Ea9A3559A0A00b7B88b50aF1"
 }
