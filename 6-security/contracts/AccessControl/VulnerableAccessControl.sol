@@ -9,7 +9,7 @@ contract VulnerableAccessControl {
         _;
     }
     constructor() payable {
-        require(msg.value >= 0.01 ether, "not enough Metis");
+        // require(msg.value >= 0.0001 ether, "not enough Metisssss");
         owner = payable(msg.sender);
     }
     // Unrestricted function to set a new owner
