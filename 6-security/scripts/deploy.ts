@@ -19,33 +19,33 @@ async function main() {
   //     lock: await lock.getAddress(),
   //   });
   // };
-  const accessControl = async () => {
-    const VulnerableAccessControl = await ethers.getContractFactory("VulnerableAccessControl");
-    const vulnerableAccessControl = await VulnerableAccessControl.deploy();
+  // const accessControl = async () => {
+  //   const VulnerableAccessControl = await ethers.getContractFactory("VulnerableAccessControl");
+  //   const vulnerableAccessControl = await VulnerableAccessControl.deploy();
 
-    const AccessControlAttacker = await ethers.getContractFactory("AccessControlAttacker");
-    const accessControlAttacker = await AccessControlAttacker.deploy(vulnerableAccessControl);
+  //   const AccessControlAttacker = await ethers.getContractFactory("AccessControlAttacker");
+  //   const accessControlAttacker = await AccessControlAttacker.deploy(vulnerableAccessControl);
 
-    console.table({
-      vulnerableAccessControl: await vulnerableAccessControl.getAddress(),
-      accessControlAttacker: await accessControlAttacker.getAddress(),
-    });
-  };
+  //   console.table({
+  //     vulnerableAccessControl: await vulnerableAccessControl.getAddress(),
+  //     accessControlAttacker: await accessControlAttacker.getAddress(),
+  //   });
+  // };
 
-  const externalCall = async () => {
-    const VulnerableExternalCall = await ethers.getContractFactory("VulnerableExternalCall");
-    const vulnerableExternalCall = await VulnerableExternalCall.deploy();
+  // const externalCall = async () => {
+  //   const VulnerableExternalCall = await ethers.getContractFactory("VulnerableExternalCall");
+  //   const vulnerableExternalCall = await VulnerableExternalCall.deploy();
 
-    const ExternalCallAttacker = await ethers.getContractFactory("ExternalCallAttacker");
-    const externalCallAttacker = await ExternalCallAttacker.deploy(vulnerableExternalCall);
+  //   const ExternalCallAttacker = await ethers.getContractFactory("ExternalCallAttacker");
+  //   const externalCallAttacker = await ExternalCallAttacker.deploy(vulnerableExternalCall);
 
    
 
-    console.table({
-      vulnerableExternalCall: await vulnerableExternalCall.getAddress(),
-      externalCallAttacker: await externalCallAttacker.getAddress(),
-    });
-  };
+  //   console.table({
+  //     vulnerableExternalCall: await vulnerableExternalCall.getAddress(),
+  //     externalCallAttacker: await externalCallAttacker.getAddress(),
+  //   });
+  // };
   
   const overflow = async () => {
     const VulnerableOverflow = await ethers.getContractFactory("VulnerableOverflow");
